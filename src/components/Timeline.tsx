@@ -10,7 +10,7 @@ const timelineEvents = [
     description: "Tony Stark becomes Iron Man and reveals his identity to the world", 
     phase: 1, 
     type: "movie",
-    image: "https://pin.it/1nuPP1sem",
+    image: "/images/ironman1.jpg",
     boxOffice: "$585.8M",
     director: "Jon Favreau"
   },
@@ -20,7 +20,7 @@ const timelineEvents = [
     description: "Bruce Banner struggles with his transformation while being hunted", 
     phase: 1, 
     type: "movie",
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/hulk.jpg",
     boxOffice: "$264.8M",
     director: "Louis Leterrier"
   },
@@ -30,7 +30,7 @@ const timelineEvents = [
     description: "Tony Stark faces government pressure and new enemies", 
     phase: 1, 
     type: "movie",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/ironman2.jpg",
     boxOffice: "$623.9M",
     director: "Jon Favreau"
   },
@@ -40,7 +40,7 @@ const timelineEvents = [
     description: "The God of Thunder is banished to Earth and learns humility", 
     phase: 1, 
     type: "movie",
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/thoe.jpg",
     boxOffice: "$449.3M",
     director: "Kenneth Branagh"
   },
@@ -50,7 +50,7 @@ const timelineEvents = [
     description: "Steve Rogers becomes the First Avenger during WWII", 
     phase: 1, 
     type: "movie",
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/captainamerica.jpg",
     boxOffice: "$370.6M",
     director: "Joe Johnston"
   },
@@ -61,7 +61,7 @@ const timelineEvents = [
     phase: 1, 
     type: "movie", 
     major: true,
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/avengers.jpg",
     boxOffice: "$1.519B",
     director: "Joss Whedon"
   },
@@ -71,7 +71,7 @@ const timelineEvents = [
     description: "Tony Stark faces his greatest fear and the Mandarin", 
     phase: 2, 
     type: "movie",
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/ironman3.jpg",
     boxOffice: "$1.215B",
     director: "Shane Black"
   },
@@ -81,7 +81,7 @@ const timelineEvents = [
     description: "Thor battles the Dark Elves to save the Nine Realms", 
     phase: 2, 
     type: "movie",
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/thorthedarkworld.jpg",
     boxOffice: "$644.8M",
     director: "Alan Taylor"
   },
@@ -91,7 +91,7 @@ const timelineEvents = [
     description: "HYDRA is revealed within S.H.I.E.L.D.", 
     phase: 2, 
     type: "movie",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/captainamericathewintersoldier.jpg",
     boxOffice: "$714.4M",
     director: "Russo Brothers"
   },
@@ -101,7 +101,7 @@ const timelineEvents = [
     description: "A group of cosmic misfits become unlikely heroes", 
     phase: 2, 
     type: "movie",
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/guardiansofthegalaxy.jpg",
     boxOffice: "$773.3M",
     director: "James Gunn"
   },
@@ -112,7 +112,7 @@ const timelineEvents = [
     phase: 2, 
     type: "movie", 
     major: true,
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/avengersageofultron.jpg",
     boxOffice: "$1.403B",
     director: "Joss Whedon"
   },
@@ -122,7 +122,7 @@ const timelineEvents = [
     description: "Scott Lang becomes the size-changing hero", 
     phase: 2, 
     type: "movie",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/ant-man.jpg",
     boxOffice: "$519.3M",
     director: "Peyton Reed"
   },
@@ -133,7 +133,7 @@ const timelineEvents = [
     phase: 3, 
     type: "movie", 
     major: true,
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/captainamericacivilwar.jpg",
     boxOffice: "$1.155B",
     director: "Russo Brothers"
   },
@@ -143,7 +143,7 @@ const timelineEvents = [
     description: "A surgeon becomes the Master of the Mystic Arts", 
     phase: 3, 
     type: "movie",
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/doctorstrange.jpg",
     boxOffice: "$677.8M",
     director: "Scott Derrickson"
   },
@@ -153,7 +153,7 @@ const timelineEvents = [
     description: "Peter Quill discovers his true parentage", 
     phase: 3, 
     type: "movie",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/guardiansofthegalaxyvol.jpg",
     boxOffice: "$863.8M",
     director: "James Gunn"
   },
@@ -163,7 +163,7 @@ const timelineEvents = [
     description: "Peter Parker balances high school and being Spider-Man", 
     phase: 3, 
     type: "movie",
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/spider-manhomecoming.jpg",
     boxOffice: "$880.2M",
     director: "Jon Watts"
   },
@@ -173,7 +173,7 @@ const timelineEvents = [
     description: "Thor must prevent Ragnarok and save Asgard", 
     phase: 3, 
     type: "movie",
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/thorragnarok.jpg",
     boxOffice: "$854.0M",
     director: "Taika Waititi"
   },
@@ -183,7 +183,7 @@ const timelineEvents = [
     description: "T'Challa becomes king of Wakanda and the Black Panther", 
     phase: 3, 
     type: "movie",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/blackpanther.jpg",
     boxOffice: "$1.347B",
     director: "Ryan Coogler"
   },
@@ -194,7 +194,7 @@ const timelineEvents = [
     phase: 3, 
     type: "movie", 
     major: true,
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/avengersinfinitywar.jpg",
     boxOffice: "$2.048B",
     director: "Russo Brothers"
   },
@@ -204,7 +204,7 @@ const timelineEvents = [
     description: "Scott and Hope explore the Quantum Realm", 
     phase: 3, 
     type: "movie",
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/antmanandthewaspquantumania.jpg",
     boxOffice: "$622.7M",
     director: "Peyton Reed"
   },
@@ -214,7 +214,7 @@ const timelineEvents = [
     description: "Carol Danvers becomes one of the universe's most powerful heroes", 
     phase: 3, 
     type: "movie",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/captainmarvel.jpg",
     boxOffice: "$1.128B",
     director: "Anna Boden & Ryan Fleck"
   },
@@ -225,7 +225,7 @@ const timelineEvents = [
     phase: 3, 
     type: "movie", 
     major: true,
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/avengersendgame.jpg",
     boxOffice: "$2.798B",
     director: "Russo Brothers"
   },
@@ -235,39 +235,9 @@ const timelineEvents = [
     description: "Peter Parker deals with the aftermath of Endgame", 
     phase: 3, 
     type: "movie",
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/spider-manfarfromhome.jpg",
     boxOffice: "$1.132B",
     director: "Jon Watts"
-  },
-  { 
-    year: "2021", 
-    title: "WandaVision", 
-    description: "Wanda creates a reality where she and Vision live in suburban bliss", 
-    phase: 4, 
-    type: "series",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
-    episodes: "9 episodes",
-    director: "Matt Shakman"
-  },
-  { 
-    year: "2021", 
-    title: "The Falcon and the Winter Soldier", 
-    description: "Sam Wilson and Bucky Barnes team up", 
-    phase: 4, 
-    type: "series",
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
-    episodes: "6 episodes",
-    director: "Kari Skogland"
-  },
-  { 
-    year: "2021", 
-    title: "Loki", 
-    description: "The God of Mischief encounters the Time Variance Authority", 
-    phase: 4, 
-    type: "series",
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
-    episodes: "6 episodes",
-    director: "Kate Herron"
   },
   { 
     year: "2021", 
@@ -275,19 +245,9 @@ const timelineEvents = [
     description: "Natasha Romanoff confronts her past", 
     phase: 4, 
     type: "movie",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/blackwidow.jpg",
     boxOffice: "$379.8M",
     director: "Cate Shortland"
-  },
-  { 
-    year: "2021", 
-    title: "What If...?", 
-    description: "Exploring alternate realities in the multiverse", 
-    phase: 4, 
-    type: "series",
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
-    episodes: "9 episodes",
-    director: "Bryan Andrews"
   },
   { 
     year: "2021", 
@@ -295,7 +255,7 @@ const timelineEvents = [
     description: "Shang-Chi confronts his father and the Ten Rings organization", 
     phase: 4, 
     type: "movie",
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/shangchi.jpg",
     boxOffice: "$432.2M",
     director: "Destin Daniel Cretton"
   },
@@ -305,19 +265,9 @@ const timelineEvents = [
     description: "Ancient beings emerge to protect Earth from the Deviants", 
     phase: 4, 
     type: "movie",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/eternals.jpg", // fixed path
     boxOffice: "$402.1M",
     director: "Chloé Zhao"
-  },
-  { 
-    year: "2021", 
-    title: "Hawkeye", 
-    description: "Clint Barton trains Kate Bishop as his successor", 
-    phase: 4, 
-    type: "series",
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
-    episodes: "6 episodes",
-    director: "Rhys Thomas"
   },
   { 
     year: "2021", 
@@ -326,19 +276,9 @@ const timelineEvents = [
     phase: 4, 
     type: "movie", 
     major: true,
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/spider-mannowayhome.jpg",
     boxOffice: "$1.921B",
     director: "Jon Watts"
-  },
-  { 
-    year: "2022", 
-    title: "Moon Knight", 
-    description: "Marc Spector struggles with dissociative identity disorder", 
-    phase: 4, 
-    type: "series",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
-    episodes: "6 episodes",
-    director: "Mohamed Diab"
   },
   { 
     year: "2022", 
@@ -347,19 +287,9 @@ const timelineEvents = [
     phase: 4, 
     type: "movie", 
     major: true,
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/doctorstrangeinthemultiverseofmadness.jpg",
     boxOffice: "$956.0M",
     director: "Sam Raimi"
-  },
-  { 
-    year: "2022", 
-    title: "Ms. Marvel", 
-    description: "Kamala Khan discovers her powers and heritage", 
-    phase: 4, 
-    type: "series",
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
-    episodes: "6 episodes",
-    director: "Adil El Arbi & Bilall Fallah"
   },
   { 
     year: "2022", 
@@ -367,29 +297,9 @@ const timelineEvents = [
     description: "Thor reunites with Jane Foster, now the Mighty Thor", 
     phase: 4, 
     type: "movie",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/thorloveandthunder.jpg",
     boxOffice: "$760.9M",
     director: "Taika Waititi"
-  },
-  { 
-    year: "2022", 
-    title: "She-Hulk: Attorney at Law", 
-    description: "Jennifer Walters balances law and being a Hulk", 
-    phase: 4, 
-    type: "series",
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=400",
-    episodes: "9 episodes",
-    director: "Kat Coiro"
-  },
-  { 
-    year: "2022", 
-    title: "Werewolf by Night", 
-    description: "A monster hunter special in black and white", 
-    phase: 4, 
-    type: "special",
-    image: "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=400",
-    runtime: "53 minutes",
-    director: "Michael Giacchino"
   },
   { 
     year: "2022", 
@@ -397,7 +307,7 @@ const timelineEvents = [
     description: "Wakanda mourns T'Challa and faces new threats", 
     phase: 4, 
     type: "movie",
-    image: "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "/images/blackpantherwakandaforever.jpg",
     boxOffice: "$859.2M",
     director: "Ryan Coogler"
   }
@@ -480,7 +390,7 @@ const Timeline: React.FC = () => {
                       <img 
                         src={event.image} 
                         alt={event.title}
-                        className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                       <div className="absolute top-3 left-3 flex items-center gap-2">
