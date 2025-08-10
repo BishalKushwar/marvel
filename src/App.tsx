@@ -5,7 +5,6 @@ import Phases from './components/Phases';
 import Characters from './components/Characters';
 import Timeline from './components/Timeline';
 import MusicPlayer from './components/MusicPlayer';
-import Navigation from './components/Navigation';
 
 function App() {
   const [currentSection, setCurrentSection] = useState(0);
@@ -26,7 +25,6 @@ function App() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            <Navigation currentSection={currentSection} setCurrentSection={setCurrentSection} />
             <MusicPlayer />
             
             <div id="hero">

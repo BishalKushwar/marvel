@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { motion, AnimatePresence, useInView } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Play, Pause, Volume2, VolumeX, SkipBack, SkipForward, Music, Shuffle, Repeat } from 'lucide-react';
 
 const playlist = [
@@ -21,10 +21,6 @@ const MusicPlayer: React.FC = () => {
   const [isShuffled, setIsShuffled] = useState(false);
   const [isRepeating, setIsRepeating] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
-
-  // Animate on scroll
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   // Load the current track whenever it changes
   useEffect(() => {
@@ -87,9 +83,9 @@ const MusicPlayer: React.FC = () => {
   };
 
   return (
-    <div ref={ref}>
+    <div>
       <AnimatePresence>
-        {isVisible && isInView && (
+        {isVisible && (
           <motion.div
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
